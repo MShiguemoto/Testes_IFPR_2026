@@ -23,5 +23,10 @@
         "descricao": "CT-05: Senha forte",
         "senha": "@A1b2C3D4",
         "saida": true
+    },
+    {
+        "descricao": "CT-06: Senha forte com espaço",
+        "senha": "@A1b2 C3D4",
+        "saida": false
     }
 ]
