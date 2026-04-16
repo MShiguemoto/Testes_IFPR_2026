@@ -18,5 +18,10 @@
         "descricao": "CT-04: Senha com letras maiúsculas e minúsculas",
         "senha": "AbCdEfGH",
         "saida": false
+    },
+    {
+        "descricao": "CT-05: Senha forte",
+        "senha": "@A1b2C3D4",
+        "saida": true
     }
 ]
