@@ -1,4 +1,5 @@
 const {ServicoValidacao} = require("../../src/Model/Services/ServicoValidacao");
+const casos = require("../dados/Senhas.json");
 
 test("Invalidar senha 6 digitos", () => {
     // Arrange
@@ -15,5 +16,12 @@ test("Validar senha forte", () => {
     // Act
     const resultado = ServicoValidacao.validarSenha(senha);
     // Assert
-    expect(resultado).toBe(false);
+    expect(resultado).toBe(true);
+});
+
+test.each(casos)('$descricao', (caso) => {
+            
+    const resultado = ServicoValidacao.validarSenha(caso.senha);
+    
+    expect(resultado).toBe(caso.saida);
 });

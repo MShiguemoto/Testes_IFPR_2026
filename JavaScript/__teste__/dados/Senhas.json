@@ -1,0 +1,7 @@
+[
+    {
+        "descricao": "CT-01: Senha puramente numérica menor que 8",
+        "senha": "1234567",
+        "saida": false
+    }
+]
