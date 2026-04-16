@@ -12,7 +12,7 @@
     {
         "descricao": "CT-03: Senha numérica com letras maiúsculas e minúsculas",
         "senha": "A1b2C3D4e5",
-        "saida": true
+        "saida": false
     },
     {
         "descricao": "CT-04: Senha com letras maiúsculas e minúsculas",
