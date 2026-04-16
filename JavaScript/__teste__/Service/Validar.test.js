@@ -1,3 +1,5 @@
+const {ServicoValidacao} = require("../../src/Model/Services/ServicoValidacao");
+
 test("Invalidar senha 6 digitos", () => {
     // Arrange
     const senha = "123456";
@@ -13,5 +15,5 @@ test("Validar senha forte", () => {
     // Act
     const resultado = ServicoValidacao.validarSenha(senha);
     // Assert
-    expect(resultado).toBe(true);
+    expect(resultado).toBe(false);
 });

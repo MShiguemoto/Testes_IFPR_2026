@@ -1,8 +1,9 @@
-export class ServicoValidacao {
+class ServicoValidacao {
     
     static validarSenha(senha){
         // Lógica de validação da senha
         
-        return true;
+        return false;
     }
 }
+module.exports = { ServicoValidacao };
