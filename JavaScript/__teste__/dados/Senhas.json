@@ -3,5 +3,10 @@
         "descricao": "CT-01: Senha puramente numérica menor que 8",
         "senha": "1234567",
         "saida": false
+    },
+    {
+        "descricao": "CT-02: Senha numérica com letras minúsculas",
+        "senha": "a1b2c3d4",
+        "saida": true
     }
 ]
