@@ -17,7 +17,7 @@
     },
     {
         "descricao": "CT-03- Usuário e livro inválido",
-        "ativo": false,
+        "ativo": true,
         "emprestimosAtivos": 0,
         "multaPendente": 0,
         "livro_disponivel": false,

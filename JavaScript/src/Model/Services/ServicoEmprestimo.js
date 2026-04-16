@@ -1,4 +1,7 @@
-export class ServicoEmprestimo {
+const { constantes } = require("../../util/constants");
+const { mensagens } = require("../../util/messages");
+
+class ServicoEmprestimo {
     
     static autorizarEmprestimo(usuario, livro){
         return this.validarUsuario(usuario) && this.validarLivro(livro);
@@ -16,3 +19,5 @@ export class ServicoEmprestimo {
         return true;
     }
 }
+
+module.exports = { ServicoEmprestimo };
